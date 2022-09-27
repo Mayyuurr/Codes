@@ -1,5 +1,3 @@
-# First
-
 git status
 git commit -m 
 git add <filename>
