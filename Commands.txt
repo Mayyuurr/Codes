@@ -1,6 +1,6 @@
 git status
 git commit -m "<msg>"
-git add .
+git add .or <filename>
 //git diff <filename>
 git push origin main
 git init----> create new reposetry<a storage for all files>
