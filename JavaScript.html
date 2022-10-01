@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body id="background">
+	<h1>Background Color is being changed every 1 seconds</h1>
+<script>
+var i = 0;
+function change() {
+
+
+  var doc = document.getElementById("background");
+
+  var color = ["red", "blue", "brown", "green","yellow","pink","orange"];
+  doc.style.backgroundColor = color[i];
+  i = i+1;
+  if(i==7){
+  	doc.style.backgroundColor = "white";
+  }
+
+  
+}
+function click_btn() {
+  	window.status = "Background Color is being changed every 1 seconds";
+  }
+</script>
+<input type="button" name="b1" value="over here" onmouseover="setInterval(change, 1000)">
+<input type="submit" name="b2" value="click here" onclick="click_btn()">
+</body>
+</html>
