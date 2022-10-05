@@ -1,7 +1,10 @@
-git status
-git commit -m "<msg>"
-git add .or <filename>git 
-//git diff <filename>
-git push origin main
-git init----> create new reposetry<a storage for all files>
+The famous and most used "GIT" commands are :-
+
+1)git status
+2)git commit -m "<msg>"
+3)git add .or <filename>git 
+4)//git diff <filename>
+5)git push origin main
+6)git init----> create new reposetry<a storage for all files>
+reposetry==> A space for storage "in easy words"
 
