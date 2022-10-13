@@ -6,10 +6,12 @@
 <body>
     <h1> Use of switch case</h1>
     <script type="text/javascript">
-        var day=5;
+        var a=Form1.N1.vlaue;
+        var day= parseInt.a
+        function check(){
         switch(day)
          {
-            case 1: alert("Monday"); break;
+            case 1: ale("Monday"); break;
             case 2: alert("Tuesday"); break;
             case 3: alert("Wednesday"); break;
             case 4: alert("Thursday"); break;
@@ -18,6 +20,12 @@
             case 7: alert("Sunay"); break;
             default: alert("invalid day");
          }
+        }
+       
     </script>
+    <form name="Form1">
+        Enter day<input type="text" name="N1" autofocus> <br>
+         <input type="submit" value="submit" onclick="check()">
+    </form>
 </body>
 </html>
