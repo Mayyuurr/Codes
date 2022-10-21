@@ -8,6 +8,6 @@ function getVowels() {
       }
     }
     //document.write("Total Vowels : "+vowelsCount);
-    document.getElementById('demo').innerHTML = "Total no. of Vowels in string are: "+vowelsCount;
+   document.getElementById('demo').innerHTML = "Total no. of Vowels in string are: "+vowelsCount;
     return vowelsCount;
   }
