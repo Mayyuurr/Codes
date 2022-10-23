@@ -16,23 +16,23 @@ var grade;
 if (per>=35 && per<=60) {
 grade = 'F';
 } 
-
+    
 else if(per>=61 && per<=70){
 grade = 'D';
 }
-
+     
 else if(per>=71 && per<=80){
 grade = 'C';
 }
-
+      
 else if(per>=81 && per<=90){
 grade = 'B';
 }
-
+      
 else if(per>=91 && per<=100){
 grade = 'A';
 }
-
+       
 else{
 grade = "Invalid or Failed";
 }
@@ -40,10 +40,11 @@ document.getElementById("demo").innerHTML = "Your Total Marks : "+total+"<br>You
 // document.write("Your Total Marks : "+total);
 // document.write("<br>Your Percentage : "+per);
 // document.write("<br>Your Grade : "+grade);
-                
+                      
 }
+
 </script>
-</head>
+</head>     
 <body>
     <h1>Enter Students Marks out of 100</h1>
     <input type="text" id="s1" placeholder="Enter English Marks"><br>
@@ -57,5 +58,6 @@ document.getElementById("demo").innerHTML = "Your Total Marks : "+total+"<br>You
 
     <div id="demo"></div>
 </body>
-
 </html>
+
+
