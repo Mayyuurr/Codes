@@ -6,3 +6,10 @@ function get_Fahrenheit(){
     document.write("Fahrenheit : "+f);
 }
  
+function get_Celsius(){
+    var f = parseInt(document.getElementById('f1').value);
+    var c;
+    //(f-32)/9 = c/5; 
+    c = ((f-32)/9)*5;
+    document.write("Celsius : "+c);
+}
