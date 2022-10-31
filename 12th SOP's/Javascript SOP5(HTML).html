@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript">
+        function get_Fahrenheit(){
+            var c = parseInt(document.getElementById('c1').value);
+            var f;
+            //(f-32)/9 = c/5; 
+            f = c/5*(9)+32;
+            document.write("Fahrenheit : "+f);
+        }
+
+        function get_Celsius(){
+            var f = parseInt(document.getElementById('f1').value);
+            var c;
+            //(f-32)/9 = c/5; 
+            c = ((f-32)/9)*5;
+            document.write("Celsius : "+c);
+        }
+    </script>
+</head>
+<body>
+        <input type="text" id="c1" placeholder="Temperature in Celsius">
+        <input type="submit" onclick="get_Fahrenheit()">
+        <br>
+
+        <input type="number" id="f1" placeholder="Temperature in Fahrenheit">
+        <input type="submit" onclick="get_Celsius()">
+        
+</body>
+</html>
