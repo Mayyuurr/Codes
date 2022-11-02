@@ -7,6 +7,7 @@ function get_Fahrenheit(){
     f = c/5*(9)+32;
 
     document.write("Fahrenheit : "+f);
+
 }
 
 
