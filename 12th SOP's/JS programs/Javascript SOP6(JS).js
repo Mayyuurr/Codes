@@ -11,7 +11,7 @@ function submit_marks() {
     var grade;
     if (per>=35 && per<=60) {
     grade = 'F';
-    } 
+    }     
         
     else if(per>=61 && per<=70){
     grade = 'D';
