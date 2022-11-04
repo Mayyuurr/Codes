@@ -33,6 +33,7 @@ function submit_marks() {
     else{
     grade = "Invalid or Failed";
     }
+    
     document.getElementById("demo").innerHTML = "Your Total Marks : "+total+"<br>Your Percentage : "+per+"<br>Your Grade : "+grade;
     // document.write("Your Total Marks : "+total);
     // document.write("<br>Your Percentage : "+per);
