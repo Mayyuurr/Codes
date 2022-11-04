@@ -1,5 +1,6 @@
 
 function submit_marks() {
+    
     var sub1 = parseInt(document.getElementById('s1').value);
     var sub2 = parseInt(document.getElementById('s2').value);
     var sub3 = parseInt(document.getElementById('s3').value);
@@ -42,4 +43,3 @@ function submit_marks() {
     }
 
 
-    
