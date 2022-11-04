@@ -9,6 +9,7 @@ function submit_marks() {
     var total = sub1+sub2+sub3+sub4+sub5+sub6;
     var per  = total/6;
     var grade;
+    
     if (per>=35 && per<=60) {
     grade = 'F';
     }     
